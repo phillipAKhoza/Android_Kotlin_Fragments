@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
             val secondFragment = SecondFragment()
 
             secondFragmentTraction.replace(R.id.frame, secondFragment)
+
+            secondFragmentTraction.addToBackStack(null)
             secondFragmentTraction.commit()
         }
     }
