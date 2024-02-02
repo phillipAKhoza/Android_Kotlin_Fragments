@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/design_default_color_secondary"
+    android:background="@color/design_default_color_secondary_variant"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".FirstFragment">
@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Fragment"
+        android:text="Second Fragment"
         android:textColor="@color/black"
         android:textSize="24sp" />
 
